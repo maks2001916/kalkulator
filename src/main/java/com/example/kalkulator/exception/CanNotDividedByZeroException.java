@@ -1,6 +1,6 @@
 package com.example.kalkulator.exception;
 
-public class CanNotDividedByZeroException extends Exception{
+public class CanNotDividedByZeroException extends IllegalArgumentException{
 
     public CanNotDividedByZeroException() {
     }
