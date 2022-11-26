@@ -1,0 +1,10 @@
+### Добро пожаловать в калькулятор
+GET http://localhost:8080/kalculator
+### Сложение
+GET http://localhost:8080/calculator/plus?num1=5&num2=5
+### Вычетание
+GET http://localhost:8080/calculator/minus?num1=5&num2=5
+### Умножение
+GET http://localhost:8080/calculator/multiply?num1=5&num2=5
+### Деление
+GET http://localhost:8080/calculator/divide?num1=5&num2=5
