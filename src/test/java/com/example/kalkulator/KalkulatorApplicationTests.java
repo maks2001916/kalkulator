@@ -95,5 +95,8 @@ public class KalkulatorApplicationTests {
         Assertions.assertThrows(IllegalArgumentException.class, () -> kalkulatorController.multiply(1, null));
     }
 
-
+    @Test
+    public void divideWithSecondNumNullException() {
+        Assertions.assertThrows(IllegalArgumentException.class, () -> kalkulatorController.divide(4, null));
+    }
 }
