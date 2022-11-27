@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.*;
 public class KalkulatorController {
     private final KalkulatorController kalkulatorController;
 
-    public KalkulatorController(KalkulatorController kalkulatorController) {
+    public KalkulatorController() {
         this.kalkulatorController = kalkulatorController;
     }
 
